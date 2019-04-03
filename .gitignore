@@ -1,3 +1,8 @@
+#producción-desarrollo
+/static/
+#Estos comentarios no pueden ir despues
+#de una instruccion, anula la linea entera
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 .cache
@@ -21,5 +26,3 @@ dist/
 #DB defecto
 db.sqlite3
 
-#producción-desarrollo
-/static/  #relativo a la posicion del gitignore
