@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.cache
+*.py[cod]
+.vscode/
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# Entornos virtuales
+midjangoenv/
+.midjangoenv/
+
+#builds results
+*.egg-info/
+dist/
+
+#DB defecto
+db.sqlite3
