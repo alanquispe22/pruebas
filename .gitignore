@@ -1,5 +1,7 @@
 #producción-desarrollo
 /static/
+settings.py
+
 #Estos comentarios no pueden ir despues
 #de una instruccion, anula la linea entera
 
