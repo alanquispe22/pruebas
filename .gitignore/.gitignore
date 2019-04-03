@@ -10,9 +10,9 @@ __pycache__/
 *.pyc
 local_settings.py
 
-# Entornos virtuales
-midjangoenv/
-.midjangoenv/
+# Entornos virtuales se debe personalizar el nombre del entorno
+pruebasenv/
+.pruebasenv/
 
 #builds results
 *.egg-info/
@@ -20,3 +20,6 @@ dist/
 
 #DB defecto
 db.sqlite3
+
+#producción-desarrollo
+/static/  #relativo a la posicion del gitignore
