@@ -31,13 +31,14 @@ ALLOWED_HOSTS = ['127.0.0.1','localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'core.apps.CoreConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core',
+    
 ]
 
 MIDDLEWARE = [
@@ -125,3 +126,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = 'media/'
