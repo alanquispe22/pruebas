@@ -1,0 +1,76 @@
+<style>.errorlist{color:red;} label{display: none;}</style>
+      <div class="jumbotron text-center">
+          <h1>Formulario de registro</h1>
+          <p>Por favor llena todos los campos.</p> 
+      </div>
+      
+    <div class="container ">
+        <form action="" method="POST">{% csrf_token %}
+            {{form.as_p}}
+           <!--  <div class="form-row content-center mb-1 pb-1">
+              <div class="col-sm-4 text-right">
+                <label>Nombre de usuario : </label>
+              </div>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="usname" placeholder="Nombre de usuario"required>
+              </div>
+            </div>
+            <div class="form-row content-center mb-1 pb-1">
+                <div class="col-sm-4 text-right">
+                  <label>Nombre : </label>
+                </div>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" id="firstname" placeholder="Nombre" required>
+                </div>
+            </div>
+            <div class="form-row content-center mb-1 pb-1">
+                <div class="col-sm-4 text-right">
+                  <label>Apellido : </label>
+                </div>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" id="lastname" placeholder="Apellido" required>
+                </div>
+            </div>
+            <div class="form-row content-center mb-1 pb-1">
+                <div class="col-sm-4 text-right">
+                  <label>Correo : </label>
+                </div>
+                <div class="col-sm-4">
+                  <input type="email" class="form-control" id="usemail" aria-describedby="emailHelp" placeholder="name@example.com" required>
+                  <small id="emailHelp" class="form-text text-muted">Nosotros nunca compartiremos su correo con nadie más.</small>
+                </div>
+            </div>
+            <div class="form-row content-center mb-1 pb-1">
+                <div class="col-sm-4 text-right">
+                  <label>Contraseña : </label>
+                </div>
+                <div class="col-sm-4">
+                  <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" placeholder="Contraseña" required>
+                  <small id="passwordHelp" class="form-text text-muted">Le sugerimos entre 8 - 20 caractéres.</small>
+                </div>
+            </div>
+            <div class="form-row content-center mb-1 pb-1">
+                <div class="col-sm-4 text-right">
+                  <label>Descríbete : </label>
+                </div>
+                <div class="col-sm-4">
+                  <textarea name="" id="usabout" cols="49" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="form-row content-center mb-1 pb-1">
+              <div class="col-sm-4 text-right">
+                  <label>Foto de perfil : </label>
+              </div>
+              <div class="col-sm-4 text-right">
+                  <input name="profile" type="file">
+              </div>
+            </div>-->
+            <div class="form-row justify-content-center mb-1 pb-1">
+                <div class="col-sm-4 text-center">
+                  <button type="submit" class="btn btn-primary">Registrarse</button>
+                </div>
+            </div> 
+      </form>
+    </div>
+
+  
