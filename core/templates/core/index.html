@@ -1,0 +1,259 @@
+
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Slider -->
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url('{% static 'core/images/bann1.jpg' %}');">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center text-center">
+            <div class="col-md-10 col-sm-12 ftco-animate">
+              <h1 class="mb-3">GASTRONOMÍA CALLEJERA LA PAZ</h1>
+              <p><a href="#" class="btn btn-primary btn-outline-white px-5 py-3">Regístrate</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url('{% static 'core/images/bann2.jpg' %}');">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center text-center">
+            <div class="col-md-10 col-sm-12 ftco-animate">
+              <h1 class="mb-3">GASTRONOMÍA CALLEJERA LA PAZ</h1>
+              <p><a href="#" class="btn btn-primary btn-outline-white px-5 py-3">Regístrate</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url('{% static 'core/images/bann3.jpg' %}');">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center text-center">
+            <div class="col-md-10 col-sm-12 ftco-animate">
+              <h1 class="mb-3">GASTRONOMÍA CALLEJERA LA PAZ</h1>
+              <p><a href="#" class="btn btn-primary btn-outline-white px-5 py-3">Regístrate</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END slider -->
+
+    <!-- BEGIN COMIDAS section -->
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Lo que ofrecemos</span>
+            <h2>Descrubre las mejores comidas</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 dish-menu">
+
+            <div class="tab-content py-5" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div class="row">
+                  <div class="col-lg-6">
+                    
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url({% static 'core/images/platos1.jpg' %});"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Sandwinch de Chola y Escabeche</h3>
+                          <p><span>Pollo</span>, <span>Cerdo</span>, <span>Escabeche</span>, <span>Pan</span>, <span>tomate</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">Bs 8</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url({% static 'core/images/platos2.jpg' %});"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Tripitas Dña. Yessica</h3>
+                          <p><span>Tripitas</span>, <span>Aji</span>, <span>Papitas</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">Bs 6</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url({% static 'core/images/platos3.jpg' %});"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Chicharrones Dña. Lidia</h3>
+                          <p><span>Pollo</span>, <span>Cerdo</span>, <span>Chuño</span>, <span>Mote</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">Bs 15</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url({% static 'core/images/platos4.jpg' %});"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Brochetas Dña. Pascuala</h3>
+                          <p><span>Pollo</span>, <span>Chorizo</span>, <span>Papitas</span>, <span>Salsa</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">Bs 5</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- END -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 pt-4 text-center ftco-animate">
+                <p>Para ver un listado completo, regístrate solo se requiere tu correo!!</p>
+                <span><a href="#" class="btn btn-primary btn-outline-primary p-3">Registrarme</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <!-- NUESTROS SERVICIOS section -->
+    <section class="ftco-section parallax-img" style="background-image: url('{% static 'core/images/bann_serv.jpg' %}');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+            <h2>Nuestros Servicios</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="ftco-section bg-light">
+      <div class="container special-dish">
+        <div class="row d-flex no-gutters">
+          <div class="col-lg-6">
+            
+            <div class="block-3 d-md-flex ftco-animate">
+              <div class="image order-last" style="background-image: url({% static 'core/images/serv1.jpg' %});"></div>
+              <div class="text text-center order-first">
+                <h2 class="heading">Cerca de tí</h2>
+                <p>Encuentra la ubicación de las comidas más cercanas a tu posición.</p>
+              </div>
+            </div>
+
+            <div class="block-3 d-md-flex ftco-animate">
+              <div class="image order-first" style="background-image: url({% static 'core/images/serv3.jpg' %});"></div>
+              <div class="text text-center order-first">
+                <h2 class="heading">Puntuación</h2>
+                <p>Encuentra las comidas mejor puntuadas y recomendadas.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            
+            <div class="block-3 d-md-flex ftco-animate">
+              <div class="image order-last" style="background-image: url({% static 'core/images/serv2.jpg' %});"></div>
+              <div class="text text-center order-first">
+                <h2 class="heading">Diversidad</h2>
+                <p>Encuentra los platos que más te gustan de todo precio.</p>                
+              </div>
+            </div>
+
+            <div class="block-3 d-md-flex ftco-animate">
+              <div class="image order-first" style="background-image: url({% static 'core/images/serv4.jpg' %});"></div>
+              <div class="text text-center order-first">
+                <h2 class="heading">Eres Participe</h2>
+                <p>Puedes sugerir sitios una vez registrado.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIO section -->
+    <section class="ftco-section testimony-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Testimonios de Usuarios</span>
+            <h2>Lo que nuestros usuarios dicen:</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="carousel owl-carousel ftco-owl">
+
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-4" style="background-image: url({% static 'core/images/person_1.jpg' %})" style="border: 1px solid red;"></div>
+                <div class="text">
+                  <p class="star-rate"><span class="icon-star"></span><span class="icon-star"></span><span
+                      class="icon-star"></span><span class="icon-star"></span><span class="icon-star-half-full"></span></p>
+                  <p class="mb-5">Es un gran sitio donde puedes encontrar lo mejor de la comida paceña.</p>
+                  <p class="name">Alvaro Moncada</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-4" style="background-image: url({% static 'core/images/person_2.jpg' %})" style="border: 1px solid red;"></div>
+                <div class="text">
+                  <p class="star-rate"><span class="icon-star"></span><span class="icon-star"></span><span
+                      class="icon-star"></span><span class="icon-star"></span><span class="icon-star-half-full"></span></p>
+                  <p class="mb-5">Definitivamente un sitio muy sencillo pero muy util cuando no se sabe donde ir a comer.</p>
+                  <p class="name">Monica Ortiz</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-4" style="background-image: url({% static 'core/images/person_3.jpg' %})" style="border: 1px solid red;"></div>
+                <div class="text">
+                  <p class="star-rate"><span class="icon-star"></span><span class="icon-star"></span><span
+                      class="icon-star"></span><span class="icon-star"></span><span class="icon-star-half-full"></span></p>
+                  <p class="mb-5">Exelente los lugares y una buena guía para los que son turistas como yo.</p>
+                  <p class="name">Juan Carlos Mamani</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-4" style="background-image: url({% static 'core/images/person_4.jpg' %})" style="border: 1px solid red;"></div>
+                <div class="text">
+                  <p class="star-rate"><span class="icon-star"></span><span class="icon-star"></span><span
+                      class="icon-star"></span><span class="icon-star"></span><span class="icon-star-half-full"></span></p>
+                  <p class="mb-5">Desde este sitio puedes encontrar las mejores comidas, compartirlas y recomendarlas.</p>
+                  <p class="name">Cecilia Alvarado</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% endblock %}

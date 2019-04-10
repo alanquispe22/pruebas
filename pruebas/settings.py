@@ -31,6 +31,8 @@ ALLOWED_HOSTS = ['127.0.0.1','localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'perfil.apps.PerfilConfig',
+    'registration.apps.RegistrationConfig',
     'core.apps.CoreConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -129,3 +131,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = 'media/'
+
+# Auth redirects
+LOGIN_REDIRECT_URL = 'perfil:perfil'
+LOGOUT_REDIRECT_URL = 'core:index'
